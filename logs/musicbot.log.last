@@ -1,0 +1,126 @@
+[22.562265396] 2017-12-13 21:12:07,876 - INFO - launcher: Starting sanity checks
+[22.562265396] 2017-12-13 21:12:07,876 - INFO - launcher: Checking for python 3.5+
+[23.063659668] 2017-12-13 21:12:07,876 - INFO - launcher: Checking console encoding
+[23.063659668] 2017-12-13 21:12:07,876 - INFO - launcher: Setting console encoding to UTF-8
+[23.063659668] 2017-12-13 21:12:07,876 - INFO - launcher: Ensuring we're in the right folder
+[24.066209793] 2017-12-13 21:12:07,877 - INFO - launcher: Adding local bins/ folder to path
+[24.567365646] 2017-12-13 21:12:07,878 - INFO - launcher: Checks passed.
+[24.567365646] 2017-12-13 21:12:07,878 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.0082721710205078] 2017-12-13 21:12:08,861 - DEBUG - musicbot.bot | In bot.py::MainThread(5992), line 203 in _setup_logging: Set logging level to INFO
+[1.0082721710205078] 2017-12-13 21:12:08,861 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 76 in __init__: Loaded autoplaylist with 2531 entries
+[1.009776831] launcher-INFO: Connecting
+[4.9584205150604248] 2017-12-13 21:12:12,811 - DEBUG - musicbot.bot | In bot.py::MainThread(5992), line 993 in on_ready: Connection established, ready to go.
+[4.9589223861694336] 2017-12-13 21:12:12,812 - DEBUG - musicbot.bot | In bot.py::MainThread(5992), line 314 in _cache_app_info: Caching app info
+[5.1390697956085205] 2017-12-13 21:12:12,992 - DEBUG - musicbot.bot | In bot.py::MainThread(5992), line 810 in _scheck_ensure_env: Ensuring data folders exist
+[5.1400721073150635] 2017-12-13 21:12:12,993 - DEBUG - musicbot.bot | In bot.py::MainThread(5992), line 826 in _scheck_server_permissions: Checking server permissions
+[5.1400721073150635] 2017-12-13 21:12:12,993 - DEBUG - musicbot.bot | In bot.py::MainThread(5992), line 830 in _scheck_autoplaylist: Auditing autoplaylist
+[5.1400721073150635] 2017-12-13 21:12:12,993 - DEBUG - musicbot.bot | In bot.py::MainThread(5992), line 834 in _scheck_configs: Validating config
+[5.1405737400054932] 2017-12-13 21:12:12,994 - DEBUG - musicbot.config | In config.py::MainThread(5992), line 175 in async_validate: Validating options...
+[5.1405737400054932] 2017-12-13 21:12:12,994 - DEBUG - musicbot.bot | In bot.py::MainThread(5992), line 837 in _scheck_configs: Validating permissions config
+[5.1405737400054932] 2017-12-13 21:12:12,994 - DEBUG - musicbot.permissions | In permissions.py::MainThread(5992), line 59 in async_validate: Validating permissions...
+[5.1405737400054932] 2017-12-13 21:12:12,994 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 1004 in on_ready: Connected!  Musicbot v1.9.6
+
+[5.1410751342773438] 2017-12-13 21:12:12,994 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 1014 in on_ready: Bot:   390581652109393920/Music Bot 3#3484 [BOT]
+[5.1410751342773438] 2017-12-13 21:12:12,994 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 1022 in on_ready: Owner: 179581423013986304/Hungarian Dragon#9397
+
+[5.1415762901306152] 2017-12-13 21:12:12,995 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 1025 in on_ready: Server List:
+[5.1415762901306152] 2017-12-13 21:12:12,995 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 1026 in <listcomp>:  - SKYNERDS
+[5.1420774459838867] 2017-12-13 21:12:12,995 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 1070 in on_ready: Not bound to any text channels
+[5.1420774459838867] 2017-12-13 21:12:12,995 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 1096 in on_ready: Not autojoining any voice channels
+[5.1420774459838867] 2017-12-13 21:12:12,995 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 1100 in on_ready: Options:
+[5.1425793170928955] 2017-12-13 21:12:12,996 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 1102 in on_ready:   Command prefix: !
+[5.1425793170928955] 2017-12-13 21:12:12,996 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 1103 in on_ready:   Default volume: 25%
+[5.1430809497833252] 2017-12-13 21:12:12,996 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 1105 in on_ready:   Skip threshold: 4 votes or 50%
+[5.1430809497833252] 2017-12-13 21:12:12,996 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 1106 in on_ready:   Now Playing @mentions: Disabled
+[5.1435818672180176] 2017-12-13 21:12:12,997 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 1107 in on_ready:   Auto-Summon: Enabled
+[5.1435818672180176] 2017-12-13 21:12:12,997 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 1108 in on_ready:   Auto-Playlist: Enabled
+[5.1435818672180176] 2017-12-13 21:12:12,997 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 1109 in on_ready:   Auto-Pause: Enabled
+[5.1440834999084473] 2017-12-13 21:12:12,997 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 1110 in on_ready:   Delete Messages: Enabled
+[5.1445837020874023] 2017-12-13 21:12:12,998 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 1112 in on_ready:     Delete Invoking: Disabled
+[5.1445837020874023] 2017-12-13 21:12:12,998 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 1113 in on_ready:   Debug Mode: Disabled
+[5.1450853347778320] 2017-12-13 21:12:12,998 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 1114 in on_ready:   Downloaded songs will be saved
+[5.1455862522125244] 2017-12-13 21:12:12,999 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 248 in _join_startup_channels: Found owner in "Robot-Uralom"
+[5.1455862522125244] 2017-12-13 21:12:12,999 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 257 in _join_startup_channels: Attempting to join SKYNERDS/Robot-Uralom
+[5.1460886001586914] 2017-12-13 21:12:12,999 - DEBUG - musicbot.bot | In bot.py::MainThread(5992), line 427 in get_voice_client: Connection attempt 1 to Robot-Uralom
+[5.1460886001586914] 2017-12-13 21:12:12,999 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5992), line 366 in join_voice_channel: (join_voice_channel) creating futures
+[5.1465902328491211] 2017-12-13 21:12:13,000 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5992), line 372 in join_voice_channel: (join_voice_channel) setting voice state
+[5.1470916271209717] 2017-12-13 21:12:13,000 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5992), line 375 in join_voice_channel: (join_voice_channel) waiting for session id
+[5.2723960876464844] 2017-12-13 21:12:13,125 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5992), line 2528 in on_voice_state_update: Voice state update for 390581652109393920/Music Bot 3#3484 on SKYNERDS/Robot-Uralom -> [JOIN, CONNECT]
+[5.2728970050811768] 2017-12-13 21:12:13,126 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 2539 in on_voice_state_update: 390581652109393920/Music Bot 3#3484 has joined SKYNERDS/Robot-Uralom
+[5.2730481624603271] 2017-12-13 21:12:13,126 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5992), line 379 in join_voice_channel: (join_voice_channel) waiting for voice data
+[5.3699119091033936] 2017-12-13 21:12:13,223 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5992), line 393 in join_voice_channel: (join_voice_channel) connecting...
+[5.7982573509216309] 2017-12-13 21:12:13,651 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5992), line 405 in join_voice_channel: (join_voice_channel) connection successful
+[5.7982573509216309] 2017-12-13 21:12:13,651 - DEBUG - musicbot.bot | In bot.py::MainThread(5992), line 453 in get_voice_client: Connected in 0.7s
+[5.7982573509216309] 2017-12-13 21:12:13,651 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 454 in get_voice_client: Connected to SKYNERDS/Robot-Uralom
+[5.7992594242095947] 2017-12-13 21:12:13,652 - DEBUG - musicbot.bot | In bot.py::MainThread(5992), line 787 in deserialize_queue: Deserializing queue for 310687890176999424
+[5.8885037899017334] 2017-12-13 21:12:13,741 - DEBUG - musicbot.bot | In bot.py::MainThread(5992), line 545 in get_player: Created player via deserialization for server 310687890176999424 with 2 entries
+[5.8885037899017334] 2017-12-13 21:12:13,741 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 273 in _join_startup_channels: Joined SKYNERDS/Robot-Uralom
+[5.8890047073364258] 2017-12-13 21:12:13,742 - VOICEDEBUG - musicbot.player | In player.py::MainThread(5992), line 311 in websocket_check: Starting websocket check loop for SKYNERDS
+[5.8895065784454346] 2017-12-13 21:12:13,742 - FFMPEG - musicbot.player | In player.py::MainThread(5992), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-2c1iSpk3u1A-Trainwreck_Of_Electro_Swing_-_A_Hat_In_Time_Remix.webm
+[6.0820322036743164] 2017-12-13 21:12:13,935 - DEBUG - musicbot.bot | In bot.py::MainThread(5992), line 763 in serialize_queue: Serializing queue for 310687890176999424
+[9.7352192401885986] 2017-12-13 21:12:17,588 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 2359 in on_message: 179581423013986304/Hungarian Dragon#9397: !play smooth jazz
+[15.1375257968902588] 2017-12-13 21:12:22,991 - DEBUG - musicbot.bot | In bot.py::MainThread(5992), line 763 in serialize_queue: Serializing queue for 310687890176999424
+[16.4440383911132812] 2017-12-13 21:12:24,297 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 2359 in on_message: 179581423013986304/Hungarian Dragon#9397: !skip
+[16.4623942375183105] 2017-12-13 21:12:24,315 - FFMPEG - musicbot.player | In player.py::MainThread(5992), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-Q6vVuj3iggE-SKIN_A_WATERMELON_party_trick.webm
+[16.6373724937438965] 2017-12-13 21:12:24,490 - DEBUG - musicbot.bot | In bot.py::MainThread(5992), line 763 in serialize_queue: Serializing queue for 310687890176999424
+[16.6423861980438232] 2017-12-13 21:12:24,495 - DEBUG - musicbot.bot | In bot.py::MainThread(5992), line 763 in serialize_queue: Serializing queue for 310687890176999424
+[35.4665932655334473] 2017-12-13 21:12:43,320 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 2359 in on_message: 127542890007232512/Sajtosrolo#5641: !skip
+[35.4791276454925537] 2017-12-13 21:12:43,332 - FFMPEG - musicbot.player | In player.py::MainThread(5992), line 268 in _play: Creating player with options: -nostdin -vn https://manifest.googlevideo.com/api/manifest/hls_playlist/id/Cv_dAoka79w.0/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/cmbypass/yes/goi/160/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/hls_chunk_host/r1---sn-qpbpu8-c0ql.googlevideo.com/ei/pokxWqTLL7L_7gTHx7PICw/playlist_type/DVR/gcr/hu/mm/32/mn/sn-qpbpu8-c0ql/ms/lv/mv/m/pl/24/dover/6/beids/%5B9466592%5D/mt/1513195819/ip/89.147.66.147/ipbits/0/expire/1513217542/sparams/ip,ipbits,expire,id,itag,source,requiressl,ratebypass,live,cmbypass,goi,sgoap,sgovp,hls_chunk_host,ei,playlist_type,gcr,mm,mn,ms,mv,pl/signature/63943E2D4DD8B313C3A5FC7B5E5766F13611FE8C.626B56320642B234730F838E152288EC045C6FA2/key/dg_yt0/playlist/index.m3u8
+[35.6596214771270752] 2017-12-13 21:12:43,513 - DEBUG - musicbot.bot | In bot.py::MainThread(5992), line 763 in serialize_queue: Serializing queue for 310687890176999424
+[35.6661388874053955] 2017-12-13 21:12:43,519 - DEBUG - musicbot.bot | In bot.py::MainThread(5992), line 763 in serialize_queue: Serializing queue for 310687890176999424
+[40.6004147529602051] 2017-12-13 21:12:48,453 - FFMPEG - musicbot.player | In player.py::Thread-14 stderr reader(15048), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 04043aa0] The TLS connection was non-properly terminated.\r\n'
+[45.6205828189849854] 2017-12-13 21:12:53,474 - FFMPEG - musicbot.player | In player.py::Thread-14 stderr reader(15048), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 0659f5a0] The TLS connection was non-properly terminated.\r\n'
+[50.6009840965270996] 2017-12-13 21:12:58,454 - FFMPEG - musicbot.player | In player.py::Thread-14 stderr reader(15048), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 0659f9c0] The TLS connection was non-properly terminated.\r\n'
+[55.6010344028472900] 2017-12-13 21:13:03,454 - FFMPEG - musicbot.player | In player.py::Thread-14 stderr reader(15048), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 0659fe80] The TLS connection was non-properly terminated.\r\n'
+[60.6405026912689209] 2017-12-13 21:13:08,493 - FFMPEG - musicbot.player | In player.py::Thread-14 stderr reader(15048), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 0659f180] The TLS connection was non-properly terminated.\r\n'
+[65.6200652122497559] 2017-12-13 21:13:13,473 - FFMPEG - musicbot.player | In player.py::Thread-14 stderr reader(15048), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 0659fc20] The TLS connection was non-properly terminated.\r\n'
+[70.6204836368560791] 2017-12-13 21:13:18,473 - FFMPEG - musicbot.player | In player.py::Thread-14 stderr reader(15048), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 0659f340] The TLS connection was non-properly terminated.\r\n'
+[74.6846168041229248] 2017-12-13 21:13:22,538 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 2359 in on_message: 127542890007232512/Sajtosrolo#5641: !play Pendulum 9000 miles
+[75.6008248329162598] 2017-12-13 21:13:23,454 - FFMPEG - musicbot.player | In player.py::Thread-14 stderr reader(15048), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 0659f460] The TLS connection was non-properly terminated.\r\n'
+[78.4590332508087158] 2017-12-13 21:13:26,312 - DEBUG - musicbot.bot | In bot.py::MainThread(5992), line 763 in serialize_queue: Serializing queue for 310687890176999424
+[78.4635460376739502] 2017-12-13 21:13:26,317 - INFO - musicbot.entry | In entry.py::MainThread(5992), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=WTXFAZwoCi8
+[80.6213271617889404] 2017-12-13 21:13:28,474 - FFMPEG - musicbot.player | In player.py::Thread-14 stderr reader(15048), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 0659f3e0] The TLS connection was non-properly terminated.\r\n'
+[80.7303259372711182] 2017-12-13 21:13:28,583 - INFO - musicbot.entry | In entry.py::MainThread(5992), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=WTXFAZwoCi8
+[85.6200461387634277] 2017-12-13 21:13:33,473 - FFMPEG - musicbot.player | In player.py::Thread-14 stderr reader(15048), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 0659fb80] The TLS connection was non-properly terminated.\r\n'
+[90.6009166240692139] 2017-12-13 21:13:38,454 - FFMPEG - musicbot.player | In player.py::Thread-14 stderr reader(15048), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 0659f340] The TLS connection was non-properly terminated.\r\n'
+[95.6200656890869141] 2017-12-13 21:13:43,473 - FFMPEG - musicbot.player | In player.py::Thread-14 stderr reader(15048), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 0659f180] The TLS connection was non-properly terminated.\r\n'
+[100.6008958816528320] 2017-12-13 21:13:48,454 - FFMPEG - musicbot.player | In player.py::Thread-14 stderr reader(15048), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 0659fe80] The TLS connection was non-properly terminated.\r\n'
+[100.6635093688964844] 2017-12-13 21:13:48,516 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 2359 in on_message: 179581423013986304/Hungarian Dragon#9397: !skip
+[100.6810586452484131] 2017-12-13 21:13:48,534 - FFMPEG - musicbot.player | In player.py::MainThread(5992), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-WTXFAZwoCi8-Pendulum_-_9000_Miles_HQ.webm
+[100.9277307987213135] 2017-12-13 21:13:48,781 - DEBUG - musicbot.bot | In bot.py::MainThread(5992), line 763 in serialize_queue: Serializing queue for 310687890176999424
+[100.9327447414398193] 2017-12-13 21:13:48,786 - DEBUG - musicbot.bot | In bot.py::MainThread(5992), line 763 in serialize_queue: Serializing queue for 310687890176999424
+[109.3059103488922119] 2017-12-13 21:13:57,159 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 2359 in on_message: 127542890007232512/Sajtosrolo#5641: !volume 100000000
+[109.3064115047454834] 2017-12-13 21:13:57,159 - ERROR - musicbot.bot | In bot.py::MainThread(5992), line 2479 in on_message: Error in volume: CommandError: Unreasonable volume provided: 100000000%. Provide a value between 1 and 100.
+Traceback (most recent call last):
+  File "C:\MusicBot-master\MusicBot-master\musicbot\bot.py", line 2466, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\MusicBot-master\MusicBot-master\musicbot\bot.py", line 1953, in cmd_volume
+    'Unreasonable volume provided: {}%. Provide a value between 1 and 100.'.format(new_volume), expire_in=20)
+musicbot.exceptions.CommandError: Unreasonable volume provided: 100000000%. Provide a value between 1 and 100.
+[116.7375333309173584] 2017-12-13 21:14:04,591 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 2359 in on_message: 127542890007232512/Sajtosrolo#5641: !volume 30
+[178.0097937583923340] 2017-12-13 21:15:05,863 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 2359 in on_message: 179581423013986304/Hungarian Dragon#9397: !help
+[191.3811967372894287] 2017-12-13 21:15:19,234 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 2359 in on_message: 179581423013986304/Hungarian Dragon#9397: !help perms
+[198.7552886009216309] 2017-12-13 21:15:26,608 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 2359 in on_message: 127542890007232512/Sajtosrolo#5641: !volume 60
+[208.6128904819488525] 2017-12-13 21:15:36,466 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 2359 in on_message: 179581423013986304/Hungarian Dragon#9397: !perms
+[242.3951756954193115] 2017-12-13 21:16:10,248 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 2359 in on_message: 179581423013986304/Hungarian Dragon#9397: !help
+[265.2014169692993164] 2017-12-13 21:16:33,054 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 2359 in on_message: 179581423013986304/Hungarian Dragon#9397: !help np,
+[271.4145088195800781] 2017-12-13 21:16:39,267 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 2359 in on_message: 179581423013986304/Hungarian Dragon#9397: !help np
+[275.5178117752075195] 2017-12-13 21:16:43,371 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 2359 in on_message: 179581423013986304/Hungarian Dragon#9397: !np
+[326.0844078063964844] 2017-12-13 21:17:33,937 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 2359 in on_message: 127542890007232512/Sajtosrolo#5641: !volume 30
+[328.6003291606903076] 2017-12-13 21:17:36,453 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 2359 in on_message: 310760967766147073/P3pee#8003: !volume 20
+[328.6013319492340088] 2017-12-13 21:17:36,454 - ERROR - musicbot.bot | In bot.py::MainThread(5992), line 2479 in on_message: Error in volume: PermissionsError: You don't have permission to use that command.
+Reason: This command is not enabled for your group (Default).
+Traceback (most recent call last):
+  File "C:\MusicBot-master\MusicBot-master\musicbot\bot.py", line 2441, in on_message
+    expire_in=20)
+musicbot.exceptions.PermissionsError: This command is not enabled for your group (Default).
+[335.7380800247192383] 2017-12-13 21:17:43,591 - INFO - musicbot.bot | In bot.py::MainThread(5992), line 2359 in on_message: 310760967766147073/P3pee#8003: !volume 20
+[335.7385818958282471] 2017-12-13 21:17:43,592 - ERROR - musicbot.bot | In bot.py::MainThread(5992), line 2479 in on_message: Error in volume: PermissionsError: You don't have permission to use that command.
+Reason: This command is not enabled for your group (Default).
+Traceback (most recent call last):
+  File "C:\MusicBot-master\MusicBot-master\musicbot\bot.py", line 2441, in on_message
+    expire_in=20)
+musicbot.exceptions.PermissionsError: This command is not enabled for your group (Default).
